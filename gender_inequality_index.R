@@ -13,4 +13,4 @@ diff_data <- gender_data %>%
 # Join the data
 merged_data <- dplyr::left_join(world_spatial_data, diff_data, by = c("COUNTRY" = "country"))
 
-
+#test git pull
